@@ -1,0 +1,13 @@
+{
+  "name": "W0rd3r Skillbook",
+  "version": "1.0.0",
+  "skills_count": 25,
+  "categories": [
+    "development",
+    "design",
+    "engineering",
+    "devops",
+    "ai-agents"
+  ],
+  "format": "Agent Skills compatible SKILL.md"
+}
