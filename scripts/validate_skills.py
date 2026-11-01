@@ -25,7 +25,7 @@ def main() -> int:
     for path in paths:
         raw = path.read_text(encoding="utf-8")
         rel = path.relative_to(ROOT)
-        if not raw.startswith("---\\n"):
+        if not raw.startswith("---") or raw.splitlines()[0] != "---":
             errors.append(f"{rel}: missing YAML frontmatter opener")
             continue
         parts = raw.split("---", 2)
