@@ -4,9 +4,9 @@
 
 # W0rd3r Skillbook
 
-**A curated library of practical skills for AI coding agents.**
+**A portable skill library and compatibility registry for AI coding agents.**
 
-[![Validate](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml/badge.svg)](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-8b83d7.svg)](LICENSE) [![Skills](https://img.shields.io/badge/skills-25-718ebb.svg)](#catalog)
+[![Validate](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml/badge.svg)](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-8b83d7.svg)](LICENSE) [![Skills](https://img.shields.io/badge/skills-25-718ebb.svg)](#catalog) [![Agents](https://img.shields.io/badge/agents-36-5b8fbd.svg)](docs/agent-compatibility.md)
 
 [English](README.md) · [Русский](README.ru.md)
 
@@ -14,7 +14,7 @@
 
 ---
 
-W0rd3r Skillbook is a focused collection of reusable workflows for Codex, Claude Code, and other compatible coding agents. Each skill explains when to use it, what to inspect, how to work, and how to verify the result.
+W0rd3r Skillbook is a portable collection of reusable workflows for AI coding agents. It includes a machine-readable agent registry with project/global skill paths, compatibility status, and source references. Each skill is maintained once in the canonical SKILL.md format.
 
 > Skills guide an agent. They do not grant permissions, guarantee correctness, or replace human review.
 
@@ -67,6 +67,10 @@ The SKILL.md format is shared, but discovery paths are agent-specific. Check cur
 | [`mcp-development`](skills/ai-agents/mcp-development/) | Design MCP servers and clients with explicit schemas, safe tool boundaries, and useful errors. |
 | [`prompt-engineering`](skills/ai-agents/prompt-engineering/) | Write clear, testable instructions for language models and agents with explicit goals, constraints, and output expectations. |
 | [`security-audit`](skills/ai-agents/security-audit/) | Review application code and configuration for realistic security weaknesses and prioritize actionable remediation. |
+
+## Agent compatibility
+
+Browse the [agent compatibility directory](docs/agent-compatibility.md) or inspect the machine-readable [agent registry](agents/registry.json). Paths are documented installation targets, not proof of runtime loading. Agent-specific extensions are tracked separately, and untested agents are never marked as runtime-verified.
 
 ## Skill format
 

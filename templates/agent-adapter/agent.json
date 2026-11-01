@@ -1,0 +1,15 @@
+{
+  "id": "example-agent",
+  "name": "Example Agent",
+  "vendor": "Vendor",
+  "type": "CLI / IDE / Desktop",
+  "project_path": ".example/skills/",
+  "global_path": "~/.example/skills/",
+  "status": "experimental",
+  "runtime_tested": false,
+  "format": "SKILL.md",
+  "notes": "Replace this text with version-specific compatibility notes.",
+  "source_ids": [
+    "official-agent-docs"
+  ]
+}

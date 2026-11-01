@@ -4,9 +4,9 @@
 
 # W0rd3r Skillbook
 
-**Практическая библиотека навыков для ИИ-агентов разработки.**
+**Переносимая библиотека навыков и реестр совместимости с ИИ-агентами.**
 
-[![Проверка](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml/badge.svg)](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-8b83d7.svg)](LICENSE) [![Навыки](https://img.shields.io/badge/skills-25-718ebb.svg)](#каталог)
+[![Проверка](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml/badge.svg)](https://github.com/W0rd3r566/w0rd3r-skillbook/actions/workflows/validate.yml) [![MIT](https://img.shields.io/badge/license-MIT-8b83d7.svg)](LICENSE) [![Навыки](https://img.shields.io/badge/skills-25-718ebb.svg)](#каталог) [![Агенты](https://img.shields.io/badge/agents-36-5b8fbd.svg)](docs/agent-compatibility.ru.md)
 
 [English](README.md) · [Русский](README.ru.md)
 
@@ -14,7 +14,7 @@
 
 ---
 
-W0rd3r Skillbook — коллекция практических рабочих процессов для Codex, Claude Code и других совместимых ИИ-агентов. Каждый навык объясняет, когда его применять, что изучить перед работой, как действовать и как проверить результат.
+W0rd3r Skillbook — переносимая библиотека рабочих процессов для ИИ-агентов. В проекте есть машиночитаемый реестр путей установки для проекта и пользователя, статусов совместимости и ссылок на источники. Каждый навык хранится один раз в каноническом формате SKILL.md.
 
 > Навыки задают инструкции, но не выдают разрешения, не гарантируют правильность и не заменяют проверку человеком.
 
@@ -67,6 +67,10 @@ cp -r skills/development/debugging ~/.claude/skills/
 | [`mcp-development`](skills/ai-agents/mcp-development/) | Design MCP servers and clients with explicit schemas, safe tool boundaries, and useful errors. |
 | [`prompt-engineering`](skills/ai-agents/prompt-engineering/) | Write clear, testable instructions for language models and agents with explicit goals, constraints, and output expectations. |
 | [`security-audit`](skills/ai-agents/security-audit/) | Review application code and configuration for realistic security weaknesses and prioritize actionable remediation. |
+
+## Совместимость с агентами
+
+Смотри [каталог совместимости](docs/agent-compatibility.ru.md) или машиночитаемый [реестр агентов](agents/registry.json). Указанный путь установки не доказывает, что агент действительно загрузил навык. Особенности отдельных агентов учитываются отдельно, а непроверенные агенты не получают статус runtime-tested.
 
 ## Формат навыка
 

@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-11-02",
+  "description": "Agent Skills installation targets. Paths are discovery/install locations, not runtime test results.",
+  "compatibility_model": {
+    "documented": "Listed in the maintained Agent Skills installer directory with a documented target path. Runtime behavior is not tested by this repository.",
+    "installer-listed": "Listed by an installer, but this registry does not claim a verified native discovery path.",
+    "adapter-required": "A future adapter is needed to translate or deploy skills for this agent.",
+    "experimental": "Compatibility is exploratory and requires manual verification."
+  },
+  "sources": [
+    {
+      "id": "skills-cli-agent-directory",
+      "url": "https://github.com/vercel-labs/skills/blob/main/docs/agents.md",
+      "checked": "2026-11-02",
+      "purpose": "Agent identifiers and project/global installation paths."
+    },
+    {
+      "id": "github-cli-skill-install",
+      "url": "https://cli.github.com/manual/gh_skill_install",
+      "checked": "2026-11-02",
+      "purpose": "Additional agent identifiers supported by GitHub CLI skill installation."
+    }
+  ],
+  "agents": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "vendor": "Anthropic",
+      "type": "CLI / IDE",
+      "project_path": ".claude/skills/",
+      "global_path": "~/.claude/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "vendor": "OpenAI",
+      "type": "CLI / desktop / IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "vendor": "Anysphere",
+      "type": "IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.cursor/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "vendor": "GitHub",
+      "type": "IDE / CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.copilot/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "vendor": "Google",
+      "type": "CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.gemini/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "antigravity",
+      "name": "Antigravity",
+      "vendor": "Google",
+      "type": "IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.gemini/antigravity/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "antigravity-cli",
+      "name": "Antigravity CLI",
+      "vendor": "Google",
+      "type": "CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.gemini/antigravity-cli/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "vendor": "OpenCode",
+      "type": "CLI",
+      "project_path": ".opencode/skills/",
+      "global_path": "~/.config/opencode/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "vendor": "Block",
+      "type": "Desktop / CLI",
+      "project_path": ".goose/skills/",
+      "global_path": "~/.config/goose/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "kimi-code-cli",
+      "name": "Kimi Code CLI",
+      "vendor": "Moonshot AI",
+      "type": "CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "vendor": "Alibaba",
+      "type": "CLI",
+      "project_path": ".qwen/skills/",
+      "global_path": "~/.qwen/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "vendor": "Cline",
+      "type": "IDE extension",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "roo-code",
+      "name": "Roo Code",
+      "vendor": "Roo",
+      "type": "IDE extension",
+      "project_path": ".roo/skills/",
+      "global_path": "~/.roo/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "vendor": "Cognition",
+      "type": "IDE",
+      "project_path": ".windsurf/skills/",
+      "global_path": "~/.codeium/windsurf/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "junie",
+      "name": "Junie",
+      "vendor": "JetBrains",
+      "type": "IDE",
+      "project_path": ".junie/skills/",
+      "global_path": "~/.junie/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "vendor": "Continue",
+      "type": "IDE / CLI",
+      "project_path": ".continue/skills/",
+      "global_path": "~/.continue/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "vendor": "OpenHands",
+      "type": "Desktop / cloud / CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.openhands/agent/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "amp",
+      "name": "Amp",
+      "vendor": "Sourcegraph",
+      "type": "CLI / IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.config/agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "vendor": "Zed Industries",
+      "type": "IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "augment",
+      "name": "Augment Code",
+      "vendor": "Augment",
+      "type": "IDE / CLI",
+      "project_path": ".augment/skills/",
+      "global_path": "~/.augment/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "ibm-bob",
+      "name": "IBM Bob",
+      "vendor": "IBM",
+      "type": "IDE",
+      "project_path": ".bob/skills/",
+      "global_path": "~/.bob/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "codebuddy",
+      "name": "CodeBuddy",
+      "vendor": "Tencent",
+      "type": "IDE / CLI",
+      "project_path": ".codebuddy/skills/",
+      "global_path": "~/.codebuddy/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "command-code",
+      "name": "Command Code",
+      "vendor": "Community",
+      "type": "CLI",
+      "project_path": ".commandcode/skills/",
+      "global_path": "~/.commandcode/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "cortex-code",
+      "name": "Cortex Code",
+      "vendor": "Snowflake",
+      "type": "CLI",
+      "project_path": ".cortex/skills/",
+      "global_path": "~/.snowflake/cortex/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "crush",
+      "name": "Crush",
+      "vendor": "Charm",
+      "type": "CLI",
+      "project_path": ".crush/skills/",
+      "global_path": "~/.config/crush/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "devin",
+      "name": "Devin for Terminal",
+      "vendor": "Cognition",
+      "type": "CLI",
+      "project_path": ".devin/skills/",
+      "global_path": "~/.config/devin/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "factory-droid",
+      "name": "Droid",
+      "vendor": "Factory",
+      "type": "CLI / IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.factory/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok Build",
+      "vendor": "xAI",
+      "type": "IDE / cloud",
+      "project_path": ".grok/skills/",
+      "global_path": "~/.grok/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "kiro-cli",
+      "name": "Kiro CLI",
+      "vendor": "AWS",
+      "type": "CLI",
+      "project_path": ".kiro/skills/",
+      "global_path": "~/.kiro/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "vendor": "Community",
+      "type": "CLI",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "vendor": "Replit",
+      "type": "Cloud IDE",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.config/agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "universal",
+      "name": "Universal",
+      "vendor": "Community",
+      "type": "Generic installer target",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.config/agents/skills/",
+      "status": "installer-listed",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Listed by an installer; verify discovery behavior and target path before relying on automatic loading.",
+      "source_ids": [
+        "github-cli-skill-install"
+      ]
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "vendor": "Warp",
+      "type": "Terminal",
+      "project_path": ".agents/skills/",
+      "global_path": "~/.agents/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "aider-desk",
+      "name": "AiderDesk",
+      "vendor": "Community",
+      "type": "Desktop",
+      "project_path": ".aider-desk/skills/",
+      "global_path": "~/.aider-desk/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "vendor": "Community",
+      "type": "Agent runtime",
+      "project_path": "skills/",
+      "global_path": "~/.openclaw/skills/",
+      "status": "documented",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Installation path is listed in the maintained Agent Skills directory; runtime loading has not been tested by W0rd3r Skillbook.",
+      "source_ids": [
+        "skills-cli-agent-directory"
+      ]
+    },
+    {
+      "id": "mistral-vibe",
+      "name": "Mistral Vibe",
+      "vendor": "Mistral AI",
+      "type": "CLI",
+      "project_path": null,
+      "global_path": null,
+      "status": "installer-listed",
+      "runtime_tested": false,
+      "format": "SKILL.md",
+      "notes": "Listed by an installer; verify discovery behavior and target path before relying on automatic loading.",
+      "source_ids": [
+        "github-cli-skill-install"
+      ]
+    }
+  ]
+}
